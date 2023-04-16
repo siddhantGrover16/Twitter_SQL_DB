@@ -2,9 +2,9 @@
 This project uses SQL to study the data on Twitter communications of state legislators and presidential candidates around the 2016 presidential election. 
 
 This project contains :
-1) ER diagram of the database.
-2) script to design relational schemas to store the data from the csv files and import the data from the csv files into MySQL Server.
-3)script with SQL queries(mentioned below)
+* ER diagram of the database.
+* script to design relational schemas to store the data from the csv files and import the data from the csv files into MySQL Server.
+* script with SQL queries(mentioned below)
 
 
 # Database Requirements
