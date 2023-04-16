@@ -4,7 +4,12 @@ This project uses SQL to study the data on Twitter communications of state legis
 This project contains :
 * ER diagram of the database.
 * script to design relational schemas to store the data from the csv files and import the data from the csv files into MySQL Server.
-* script with SQL queries(mentioned below)
+* script with SQL queries(mentioned below)# Twitter_SQL_DB
+
+# Files
+* .csv format data files
+* ProjectDDL.sql that consists of SQL DDL statements that create the schemas and integrity constraints.
+*	ProjectInsert.sql to insert the data from the given .csv files into MySQL Server. 
 
 
 # Database Requirements
