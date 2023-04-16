@@ -19,7 +19,6 @@ This project contains :
 
 # Queries( labeled by q)
 
-
 Q1	List k=5 most retweeted tweets in a given month = 1 and a given year = 2016; show the retweet count, the tweet text, the posting user’s screen name, the posting user’s category, the posting user’s sub-category in descending order of the retweet count values
 Rationale: This query finds k most influential tweets in a given time frame and the users who posted them. 
 
