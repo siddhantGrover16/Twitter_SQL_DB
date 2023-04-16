@@ -10,8 +10,11 @@ This project contains :
 Database Requirements
 
 •	A tweet has the following properties: id, retweet count (the number of retweets of this tweet), retweeted (whether this tweet has been retweeted), tweet text, created at (timestamp---number of milliseconds since 1/1/1970---in which the tweet was posted), which is converted into the corresponding day, month, and year. The id is unique among all tweets. A tweet must have the user who posted it. If the posting user is deleted, all tweets posted by the user must also be deleted. A retweet has the same tweet text but has a different id from the original tweet. The attribute retweeted is not needed in the database.
+
 •	A tweet may have zero or more hashtag in it. Each hashtag has a unique name and must be used in at least one tweet. A tweet has zero or more URLs. Each URL has a unique URL address and must appear in at least one tweet. If a hashtag is deleted, all tweets that have the deleted hashtag must also be deleted. If a URL is deleted, all the tweets that have the deleted URL must also be deleted.
+
 •	A tweet may mention zero or more user accounts. A user account can be mentioned in zero or more tweets. 
+
 •	A user account has the following properties: name, screen name, followers (indicating the number of followers), following (indicating the number of people this user follows), sub_category, category, location, and the state the user lives. A user lives in at most one state. The sub_category indicates the party to which the user belongs. The values of this attribute are “GOP”, “Democrat”, “na”, or null. The values of the category attribute are senate_group, presidential_candidate, reporter, Senator, General, or null. The name property can be null, but the screen name is unique among all users and cannot be null. Presidential candidate accounts are not associated with any state. Each state can appear as either full name or abbreviation. For example, the state of Florida appears as “Florida” or “FL”. Furthermore, “na” denotes the user account without an associated state. Check the data from the csv files to understand the kind of data to be maintained. The updateStates.sql is provided to make the state name consistent. 
 
 Queries
