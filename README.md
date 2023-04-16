@@ -17,8 +17,9 @@ This project contains :
 
 •	A user account has the following properties: name, screen name, followers (indicating the number of followers), following (indicating the number of people this user follows), sub_category, category, location, and the state the user lives. A user lives in at most one state. The sub_category indicates the party to which the user belongs. The values of this attribute are “GOP”, “Democrat”, “na”, or null. The values of the category attribute are senate_group, presidential_candidate, reporter, Senator, General, or null. The name property can be null, but the screen name is unique among all users and cannot be null. Presidential candidate accounts are not associated with any state. Each state can appear as either full name or abbreviation. For example, the state of Florida appears as “Florida” or “FL”. Furthermore, “na” denotes the user account without an associated state. Check the data from the csv files to understand the kind of data to be maintained. The updateStates.sql is provided to make the state name consistent. 
 
-# Queries
-ID	Description
+# Queries( labeled by q)
+
+
 Q1	List k=5 most retweeted tweets in a given month = 1 and a given year = 2016; show the retweet count, the tweet text, the posting user’s screen name, the posting user’s category, the posting user’s sub-category in descending order of the retweet count values
 Rationale: This query finds k most influential tweets in a given time frame and the users who posted them. 
 
